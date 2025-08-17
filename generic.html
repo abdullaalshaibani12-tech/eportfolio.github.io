@@ -34,7 +34,7 @@
 						<div class="inner">
 							<h1 class="major">Weekly Activities</h1>
 							<label>Select Week:</label>
-  <select>
+  <select id="weekSelect">
     <option value="week1">Week 1</option>
     <option value="week2.html">Week 2</option>
     <option value="week3">Week 3</option>
@@ -90,17 +90,18 @@ Wooldridge, M. (1995). An Introduction to MultiAgent Systems. [online] Available
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-		<script>
-function openWeek(value) {
-  if (value) {
-    window.location.href = value; // redirects to the selected page
-  }
-}
+<script>
+  const select = document.getElementById('weekSelect');
+  select.addEventListener('change', function() {
+    if (this.value) {
+      window.location.href = this.value;
+    }
+  });
 </script>
-
 	</body>
 
 </html>
+
 
 
 
