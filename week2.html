@@ -34,20 +34,31 @@
 						<div class="inner">
 							<h1 class="major">Weekly Activities</h1>
 							<label>Select Week:</label>
-  <select>
-    <option value="week1">Week 1</option>
-    <option value="week2">Week 2</option>
-    <option value="week3">Week 3</option>
-    <option value="week4">Week 4</option>
-    <option value="week5">Week 5</option>
-    <option value="week6">Week 6</option>
-    <option value="week7">Week 7</option>
-    <option value="week8">Week 8</option>
-    <option value="week9">Week 9</option>
-    <option value="week10">Week 10</option>
-    <option value="week11">Week 11</option>
-    <option value="week12">Week 12</option>
-  </select>
+   <label>Select Week:</label>
+<select id="weekSelect">
+  <option value="">-- Select Week --</option>
+  <option value="generic.html">Week 1</option>
+  <option value="week2.html">Week 2</option>
+  <option value="week3.html">Week 3</option>
+  <option value="week4.html">Week 4</option>
+  <option value="week5.html">Week 5</option>
+  <option value="week6.html">Week 6</option>
+  <option value="week7.html">Week 7</option>
+  <option value="week8.html">Week 8</option>
+  <option value="week9.html">Week 9</option>
+  <option value="week10.html">Week 10</option>
+  <option value="week11.html">Week 11</option>
+  <option value="week12.html">Week 12</option>
+</select>
+
+<script>
+  const select = document.getElementById('weekSelect');
+  select.addEventListener('change', function() {
+    if (this.value) {
+      window.location.href = this.value;
+    }
+  });
+</script>
                          <br>
 
 							<h2> Week 2</h2>
