@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title> E-portfolio </title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Home</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#" class="active">Modules</a></li>
+						<li><a href="#">About me</a></li>
+						<li><a href="teamwork.html">TeamWork </a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Weekly Activities</h1>				
+   <label>Select Week:</label>
+<select id="weekSelect">
+  <option value="week1.html">Week 1</option>
+  <option value="week2.html">Week 2</option>
+  <option value="week3.html">Week 3</option>
+  <option value="week4.html">Week 4</option>
+  <option value="week5.html">Week 5</option>
+  <option value="week6.html">Week 6</option>
+  <option value="week7.html">Week 7</option>
+  <option value="week8.html">Week 8</option>
+  <option value="week9.html">Week 9</option>
+  <option value="week10.html">Week 10</option>
+  <option value="week11.html">Week 11</option>
+  <option value="week12.html">Week 12</option>
+</select>
+
+<script>
+  const select = document.getElementById('weekSelect');
+  select.addEventListener('change', function() {
+    if (this.value) {
+      window.location.href = this.value;
+    }
+  });
+</script>
+                         <br>
+
+							
+							<h2> Unit 7: Natural Language Processing </h2>
+							<p> Unit 7 provided an in-depth exploration of Natural Language Processing (NLP), a rapidly evolving field that enables machines to interpret, analyze, and generate human language. The unit began by explaining the fundamental concepts and principles of NLP, emphasizing the inherent complexity of human communication, such as ambiguity, context, idioms, and the nuances of grammar, which make it difficult for computers to fully comprehend natural language. It highlighted the importance of understanding these linguistic challenges when designing intelligent agents capable of interacting with humans.  <br> <br>
+
+Key Learnings:
+<ul>
+<li> Comprehensive understanding of the core principles and theoretical foundations of NLP. </li>
+<li>  Critical insight into various approaches, including rule-based, statistical, and machine learning methods. </li>
+<li> Familiarity with key technologies and tools that enable the development and deployment of NLP applications. </li>
+<li> Ability to evaluate the technical and ethical challenges involved in implementing NLP systems effectively. </li>
+</ul>
+</p>
+							<H3> Artifacts</H3>
+							<h4> Summary Post </h4>
+							<p> What i have learned in Discussion:
+This discussion has helped me better realize the trade-offs associated with the use of ACLs like KQML, as opposed to method invocation in more traditional programming languages like Python and Java. ACLs offer a semantically rich and standardized means of agent interaction, particularly in heterogeneous, distributed, and open systems (Labrou and Finin, 1994). They are based on AI research and the theory of speech acts, as they allow agents to share data and communicate not only intentions and goals but also to exchange data (Bouzouba, Moulin, and Kabbaj, 2001). Nonetheless, they bear these drawbacks: computation overhead and the need to share an ontology. In comparison, method invocation provides efficiency and visibility in systems that are tightly coupled, but does not provide flexibility and autonomy (Mayfield, Labrou, and Finin, 1995).
+
+Fahad pointed to the semantic richness of ACLs and their cross-language interoperability, as well as to the issue of efficiency and ontology alignment. His argument of hybrid techniques, like JADE, between low-level APIs and ACL-style semantics, offered a valuable hint on how industry could strike a balance between efficiency and expressiveness (Davies and Edwards, 1994). Ali emphasized the scalability of ACLs and the nature of facilitating dynamic multi-agent systems in e-commerce and supply-chain management. It is also emphasized how they are constrained under time-sensitive situations where invocation of methods or simpler messaging facilities is needed.
+
+ACLs will always be more research-focused and define our knowledge of agent interoperability, whereas method invocation is more prominent in software engineering practice (Toda, Yamashita, and Sawamura, 2001). However, due to the growing flexibility, autonomy, and cross-platform collaboration requirements of intelligent systems, ACL-inspired solutions can become more relevant in practice. 
+ </p>
+
+<h3> References:</h3>
+
+Bouzouba, K., Moulin, B. and Kabbaj, A., 2001. CG-KQML+: an agent communication language and its use in a multi-agent system. In Proc of the 9th Int. Conf. on Conceptual Structures (pp. 1-14). <br> <br>
+
+Davies, W.H. and Edwards, P., 1994. Agent-K: An Integration of AOP & KQML. In Proceedings of the CIKM'94 Workshop on Intelligent Agents. NIST.<br> <br>
+
+Labrou, Y. and Finin, T., 1994, November. A semantics approach for KQML—a general-purpose communication language for software agents. In Proceedings of the third international conference on Information and knowledge management (pp. 447-455). <br> <br>	
+
+Mayfield, J., Labrou, Y.K. and Finin, T., 1995, March. Desiderata for agent communication languages. In AAAI Spring Symposium on Information Gathering in Distributed Environments (pp. 122-127). <br> <br>	
+
+Toda, Y., Yamashita, M., and Sawamura, H., 2001, July. An argument-based agent system with KQML as an agent communication language. In Pacific Rim International Workshop on Multi-Agents (pp. 48-62). Berlin, Heidelberg: Springer Berlin Heidelberg. <br> <br>	            
+                         
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+
+</html>
