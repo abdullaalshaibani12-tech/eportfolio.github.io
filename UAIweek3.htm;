@@ -1,0 +1,105 @@
+
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title> E- Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Home</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#" class="active"></a>Modules</li>
+						<li><a href="#">About me</a></li>
+						<li><a href="#">Individual Assignment </a></li>
+
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Weekly Activities</h1>
+				
+ <label>Select Week:</label>
+<select id="weekSelect">
+  <option value="UAIweek1.html">Week 1</option>
+  <option value="UAIweek2.html">Week 2</option>
+  <option value="UAIweek3.html">Week 3</option>
+  <option value="">Week 4</option>
+  <option value="">Week 5</option>
+  <option value="">Week 6</option>
+  <option value="">Week 7</option>
+  <option value="">Week 8</option>
+  <option value="">Week 9</option>
+  <option value="">Week 10</option>
+  <option value="">Week 11</option>
+  <option value="">Week 12</option>
+</select>
+
+<script>
+  const select = document.getElementById('weekSelect');
+  select.addEventListener('change', function() {
+    if (this.value) {
+      window.location.href = this.value;
+    }
+  });
+</script>
+          <br>
+
+							<h2> Unit 3: Artificial Intelligence – Definitions, Concepts, and System Components </h2>
+							<p> In Unit 3, the focus was on understanding what Artificial Intelligence truly means by examining a range of definitions and comparing AI capabilities with human intelligence. The unit explored the core components and different types of AI systems, such as rule-based systems, machine learning models, and hybrid approaches. Key concepts included the functions of AI, the characteristics of a good AI system, and the learning paradigms—supervised, unsupervised, and reinforcement learning—that drive intelligent behavior.  <br> <br>
+
+<b> Reflection </b> <br>
+This unit provided a strong conceptual foundation for how AI systems are built and how they learn. It helped connect theoretical ideas of human-like intelligence with the practical elements that make AI systems effective, such as data, algorithms, and feedback loops. I developed a clearer understanding of what defines a robust AI system and how different learning approaches contribute to its adaptability. This knowledge lays the groundwork for more advanced topics, reinforcing the importance of solid fundamentals when evaluating or designing AI solutions.
+</p>
+
+<h3> Collaborative Discussion 1:</h3>			
+   <a class="pdf-link"
+   href="https://docs.google.com/document/d/10bimFekZl21kH6QX_yLMVh8ciobi-dzT/edit?usp=drive_link&ouid=116785958599717410982&rtpof=true&sd=true"
+   target="_blank">
+   Summary Post 
+</a>
+
+									</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+
+</html>
