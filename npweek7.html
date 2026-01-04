@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title> E-portfolio </title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Home</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#" class="active">Modules</a></li>
+						<li><a href="#">About me</a></li>
+						<li><a href="teamwork.html">TeamWork </a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Weekly Activities</h1>				
+   <label>Select Week:</label>
+<select id="weekSelect">
+  <option value="npweek1.html">Week 1</option>
+  <option value="npweek2.html">Week 2</option>
+  <option value="npweek3.html">Week 3</option>
+  <option value="npweek4.html">Week 4</option>
+  <option value="npweek5.html">Week 5</option>
+  <option value="npweek6.html">Week 6</option>
+  <option value="npweek7.html">Week 7</option>
+  <option value="npweek8.html">Week 8</option>
+  <option value="npweek9.html">Week 9</option>
+  <option value="npweek10.html">Week 10</option>
+  <option value="npweek11.html">Week 11</option>
+  <option value="npweek12.html">Week 12</option>
+</select>
+
+<script>
+  const select = document.getElementById('weekSelect');
+  select.addEventListener('change', function() {
+    if (this.value) {
+      window.location.href = this.value;
+    }
+  });
+</script>
+                         <br>
+<h2> Unit 7: Parametric Tests</h2> 
+<p> Unit 7 introduced parametric statistical tests, which are widely used when data is assumed to follow a specific distribution, most commonly the normal distribution. This unit built upon earlier concepts of hypothesis testing by focusing on methods that rely on distributional assumptions to compare means and assess variability across groups. I gained a clearer understanding of when parametric tests are appropriate and why checking assumptions such as normality is a critical first step before applying these methods. <br><br>
+
+A major focus of the unit was on understanding and performing t-tests and F-tests (ANOVA). I learned how t-tests are used to compare means between groups, while F-tests allow for comparison across multiple groups to determine whether significant differences exist. The unit also emphasised practical implementation using R, where I applied built-in functions to conduct these tests using the Health_Data dataset. Interpreting outputs—such as test statistics, degrees of freedom, and p-values—helped strengthen my ability to draw meaningful conclusions from statistical analyses. <br><br>
+
+Key Learnings: 
+<ul>
+  <li> Understanding the concept of parametric statistics and their underlying assumptions. </li>
+  <li> Assessing normality before applying parametric tests. </li>
+  <li> Performing and interpreting t-tests using R functions. </li>
+  <li> Applying F-tests (ANOVA) to compare means across multiple groups. </li>
+  <li> Interpreting statistical outputs to explain results and support conclusions. </li>
+</ul> 
+</p>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+
+</html>
